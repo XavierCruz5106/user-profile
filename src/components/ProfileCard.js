@@ -11,7 +11,7 @@ const ProfileCard = (props) => {
   const [liked, setLiked] = useState(false);
   const [disliked, setDisliked] = useState(false);
   const [likecount, setLikeCount] = useState(0);
-  const [dislikecount, setDislikeCount] = useState(0);
+  const [dislikecount, setDislikeCount] = useState(1);
   const [followtext, setText] = useState("Follow");
 
   function follow() {
